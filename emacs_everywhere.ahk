@@ -262,10 +262,10 @@ GetSelectedText()
 
    ;$!n::SendCommand("!n","^{Down}")
 
-   $!f::SendCommand("!f","^{Right}")
+   $#f::SendCommand("#f","^{Right}")
 
-   $!b::SendCommand("!b","^{Left}")
-
+   $#b::SendCommand("#b","^{Left}")
+   
    ;==========================
    ;Line Navigation
    ;==========================
